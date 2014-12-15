@@ -1,0 +1,247 @@
+/*
+Author: Samantha Voigt
+Date: August 13, 2014
+*/
+
+/*--------------------------All Pages------------------------*/
+
+body { 
+  background-color: #5d9ba1;
+  font-family: 'Dosis', sans-serif;
+  margin: 0px;
+}
+
+main { 
+  background-color: #f5f1da;
+  margin: 0px; 
+  overflow: auto;
+  display: block;
+}
+
+h1, h2 { 
+  font-family: 'Pacifico', cursive;
+  margin: 0px; 
+} 
+
+div.mainText { 
+   max-width: 900px;
+} 
+
+a:link, a:active, a:visited { 
+  color: #b32733;
+  text-decoration: none;
+} 
+
+a:hover { 
+  color: #900010;
+  text-decoration: none;
+} 
+
+/*--------------------------Footer----------------------------*/
+
+footer { 
+   max-width: 900px;
+   margin: 0px auto;
+   padding: 2%;
+} 
+
+
+footer span#copyright{ 
+  float: right;
+} 
+
+.fa-envelope:before, .fa-facebook:before, .fa-twitter:before{
+    color: #b32733;  
+    font-size: 35px;
+    padding: 1%;  
+}
+
+/*----------------------------Header--------------------------*/
+
+header { 
+  height: 150px; 
+} 
+
+h1 { 
+  font-size: 500%; 
+  color: #f5f1da;
+  text-shadow: 6px 6px 0px rgba(0,0,0, 0.2); 
+  text-align: center;
+}
+
+header a { 
+  text-decoration: none;
+} 
+
+/*-----------------------Navbar-----------------------------------*/
+
+ul#navbar { 
+  margin: 0px; 
+  list-style-type: none; 
+  border-top: 4px #b32733 solid;
+  border-bottom: 4px #b32733 solid;
+  font-size: 120%;
+  background-color: #f5f1da;
+  text-align: center;
+} 
+
+ul#navbar li { 
+  display: inline-block; 
+  color: #b32733;
+  margin-right: 2%;
+  text-transform: uppercase;
+  width: 75px;
+} 
+
+ul#navbar li:nth-of-type(4) { 
+  width: 90px;
+} 
+
+#navbar a:link, #navbar a:active, #navbar a:visited {
+  text-decoration: none; 
+  color: #b32733;
+  display: inline-block;
+}
+
+#navbar a:hover { 
+  text-decoration:none;
+  color: #900010;
+} 
+
+#index #navbar .index, #resume #navbar .resume, #about #navbar .about, 
+#portfolio #navbar .portfolio, #contact #navbar .contact { 
+  background-color: rgba(0,0,0, 0.2);
+}
+
+/*-----------------------Index-------------------------------------*/
+
+#index .mainText { 
+  width: 80%;
+  margin: 0px auto;
+  text-align: center; 
+  font-size: 150%; 
+  padding: 0px; 
+} 
+
+#index .mainText h2 { 
+  font-size: 250%;
+  position: relative; 
+  top: 20px;
+} 
+
+
+#indexImg { 
+   max-width: 100%; 
+   border-radius: 150px; 
+   float: left; 
+   margin: 5%; 
+} 
+
+/*-----------------------About-------------------------------------*/
+
+#about .mainText { 
+  width: 80%;
+  margin: 0px auto;
+  font-size: 18px; 
+  padding: 5% 0px 5% 0px; 
+  text-indent: 25px;
+  clear: both;
+} 
+
+#about .mainText img { 
+  max-width: 100%;
+  padding: 0px 2% 2% 0px;
+  float: left;
+} 
+
+/*---------------------------Portfolio-----------------------------*/
+
+.superbox p {
+    margin: 2%;
+    font-style: italic;
+}
+
+/*------------------------------------*\
+    SuperBox
+    
+    Todd Motto Labs
+	URL: www.toddmotto.com
+\*------------------------------------*/
+*,
+*:after,
+*:before {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+/* SuperBox */
+
+.superbox { 
+  text-align: center;
+  margin-bottom: 5%
+  max-width: 900px;
+} 
+
+.superbox-list {
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:12.5%;
+}
+
+.superbox-img {
+	max-width:100%;
+	width:100%;
+	cursor:pointer;
+}
+
+.superbox-show {
+	text-align:center;
+	position:relative;
+	background:#333;
+	box-shadow:inset 0 1px 5px #111;
+	-webkit-box-shadow:inset 0 1px 5px #111;
+	-moz-box-shadow:inset 0 1px 5px #111;
+	width:100%;
+    float:left;
+	padding:25px;
+	display:none;
+}
+.superbox-current-img {
+	max-width:100%;
+	box-shadow:0 1px 4px #222;
+	border:1px solid #222;
+}
+.superbox-img:hover {
+	opacity:0.8;
+}
+.superbox-float {
+	float:left;
+}
+.superbox-close {
+	opacity:0.7;
+	cursor:pointer;
+	position:absolute;
+	top:25px;
+	right:25px;
+	background:url(../img/portfolio/close.gif) no-repeat center center;
+	width:35px;
+	height:35px;
+}
+.superbox-close:hover {
+	opacity:1;
+}
+
+/*---------------------------Contact-----------------------------*/
+
+form {
+    margin: 2% auto;
+    width: 80%;
+    max-width: 900px;
+}

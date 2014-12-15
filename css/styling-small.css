@@ -1,0 +1,48 @@
+/*
+Author: Samantha Voigt
+Date: August 14, 2014
+*/
+
+h1 { 
+  line-height: 95%;
+  font-size: 375%;
+  padding-top:1%;
+} 
+
+#indexImg { 
+  margin: 5% auto;
+} 
+
+ul#navbar li { 
+  font-size: 125%;
+  width: 90px;
+} 
+
+ul#navbar li:nth-of-type(4) { 
+  width: 120px;
+} 
+
+
+@media (min-width: 417px) and (max-width: 550px) {
+  h1 {
+    padding-top: 6%;
+  }
+} 
+
+@media (min-width: 401px) and (max-width: 550px) { 
+  #indexImg {
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+	.superbox-list {
+		width:50%;
+	}
+}
+
+@media only screen and (min-width: 486px) {
+	.superbox-list {
+		width:25%;
+	}
+}

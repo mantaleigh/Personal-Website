@@ -1,0 +1,32 @@
+/*
+Author: Samantha Voigt
+Date: August 14, 2014
+*/
+
+@media (min-width: 551px) and (max-width: 775px) { 
+  #indexImg {
+    width: 50%;
+  }
+  
+  #index .mainText { 
+    font-size: 120%;
+  } 
+}
+
+@media only screen and (min-width: 551px) {
+	.superbox-list {
+		width:25%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.superbox-list {
+		width:16.66666667%;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.superbox-list {
+		width:12.5%;
+	}
+}
